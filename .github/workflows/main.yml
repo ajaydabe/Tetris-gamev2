@@ -1,9 +1,7 @@
 name: Echo Message and Slack Notification
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   echo-and-notify:
